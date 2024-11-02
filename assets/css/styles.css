@@ -60,7 +60,9 @@ body {
 h3 {
     margin-bottom: 10px;
     font-size: 18px;
-    align-self: flex-start;
+    align-self: center;
+    text-align: center;
+    width: 80%;
 }
 
 footer {
