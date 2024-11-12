@@ -15,13 +15,16 @@ body {
 }
 
 .flashcards-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    perspective: 1000px;
+    max-width: 960px;
+    width: 100%;
+    padding: 20px;
 }
 
 .flashcard {
-    width: 300px;
+    width: 100%;
     height: 200px;
     position: relative;
     cursor: pointer;
@@ -46,7 +49,6 @@ body {
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 
 .front {
     background-color: #fff;
